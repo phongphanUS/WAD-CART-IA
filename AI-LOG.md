@@ -44,3 +44,21 @@ Changed: Added evidence that the implementation passed CI; no source code, tests
 Rejected: No proposals were rejected during this step.
 By hand: I committed and pushed the implementation, opened GitHub Actions, and shared a screenshot of the result. I asked Codex to write and push this log update.
 Evidence: GitHub Actions Cart CI #2 passed on branch main for commit db63044 (Implement cartTotal with tests and AI log). The screenshot I shared shows a green result for that run and the earlier red Cart CI #1 for commit e4d2e83. Workflow: .github/workflows/ci.yml. Actions history: https://github.com/phongphanUS/WAD-CART-IA/actions. Implementation commit: https://github.com/phongphanUS/WAD-CART-IA/commit/db63044. This records run #2; later workflow results must be checked separately.
+
+## 2026-10-11 — Preparing the self-assessment report
+Tool: Codex desktop app.
+Asked for: Review the repository against the rubric and prepare SELF_ASSESSMENT_REPORT.md using the course template, my name and student ID, and my own reflections.
+Kept: The report structure with one row per rubric criterion and file/section/test/commit evidence. Codex proposed scores of 30, 20, 20, 15, and 15, totalling 100, based on the rubric descriptions and the available results. Codex drafted this report and log entry.
+Changed: I questioned the initially suggested 19/20 harness score because the one-point deduction had no defined basis in the rubric. Codex revised its proposed assessment to match the stated criteria. I supplied the reflections about asking AI for explanations before fully understanding the assignment and relying on AI to draft rules and the brief before reviewing them.
+Rejected: I challenged the arbitrary one-point harness deduction; no report code or wording was otherwise rejected during drafting.
+By hand: I provided my full name and reflected on what I had not managed and what I would do differently. Codex translated my reflections into English, reviewed the evidence, and wrote the report. The self-assessment does not establish the instructor's final mark.
+Evidence: SELF_ASSESSMENT_REPORT.md, especially the five criterion rows, What I did not manage, and What I would do differently. The claimed scores sum to 100 and match the planned filename 24127099_100.zip. The report is drafted locally; this entry does not claim that it has been committed, pushed, or submitted.
+
+## 2026-10-11 — Revising the claimed self-assessment total
+Tool: Codex desktop app.
+Asked for: Lower the claimed scores across the five criteria so that the report totals 90 instead of 100.
+Kept: The existing evidence and my reflections in SELF_ASSESSMENT_REPORT.md.
+Changed: Codex changed the claimed scores to Behaviour 28/30, Tests 18/20, Harness 18/20, Brief 13/15, and AI-LOG.md 13/15. Each remains within the highest rubric band. The declared total is now 90/100 and the planned filename is 24127099_90.zip. This is a conservative scoring choice; no additional functional failure was discovered and no evidence was changed to invent one.
+Rejected: I chose not to keep the previous total of 100.
+By hand: I requested a total of 90. Codex proposed the distribution, updated the report, and drafted this entry.
+Evidence: SELF_ASSESSMENT_REPORT.md, Total I claim and the five criterion rows. The earlier report-preparation entry records the previous draft; this entry records the revised claim. No commit, push, or submission is claimed here.
