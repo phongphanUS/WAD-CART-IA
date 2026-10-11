@@ -1,0 +1,25 @@
+name: Cart CI
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Check formatting
+        run: npm run format:check
+
+      - name: Run tests
+        if: ${{ !cancelled() }}
+        run: npm test
