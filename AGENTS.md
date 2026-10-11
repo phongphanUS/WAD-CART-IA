@@ -18,9 +18,8 @@
 - Preserve the cartTotal(items, options) public signature.
 
 ## Workflow
-- Confirm the starter test fails before making changes.
 - Read the saved brief before implementing.
-- Make small changes and show the diff for student review before execution.
+- Make small changes and show the diff for review before execution.
 - Test observable behaviour from the specification.
 - Cover the example, empty cart, shipping threshold, invalid price,
   invalid quantity, numeric result, and rounding.
